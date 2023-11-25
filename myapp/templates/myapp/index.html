@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Content</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+
+        .content-box {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            color: #000;
+            min-height: 70vh;
+            overflow: auto;
+        }
+
+        .header {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .file-content {
+            white-space: pre;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content-box">
+        <h2 class="header">Vajco Bets</h2>
+        <pre class="file-content">{{ file_content }}</pre>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
